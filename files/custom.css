@@ -51,16 +51,19 @@ h4 {font-size: 1.1875em; line-height: 1.23}
 
 h5,h6 {font-size: 1em; font-weight:bold}
 
-#headerbar  {width: 117.85%;
+#headerbar  {
+        width: 117.85%;
+        width: 100.3905vw;
         background:#ECF0F1;
         background-position: center;
         height: 3em;
         margin-left: -1rem;
-        margin-right: -1rem;}
+        margin-right: -3rem;
+}
 
 .wrapper {
   float: left;
-  max-width: 500rem;
+  max-width: 125rem;
   min-width: 50rem;
   width: 87%;
   margin-left: -1rem;
